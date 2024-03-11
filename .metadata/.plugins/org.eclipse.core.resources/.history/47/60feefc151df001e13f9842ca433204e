@@ -1,0 +1,22 @@
+package Optional;
+
+class Bbb{
+	void print() {
+		System.out.println("Bbb");
+	}
+}
+
+class Aaa{
+	void print(Bbb bb) {
+		bb.print();
+	}
+}
+
+public class OptionalMain {
+	
+	public static void main(String[] args) {
+		Aaa aa = new Aaa();
+		Bbb bb = null;
+		aa.print(null);
+	}
+}

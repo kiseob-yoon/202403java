@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="practice.MemberPrinter"/>
+    <fullyQualifiedTypeName name="practice.MemberListPrinter"/>
+    <fullyQualifiedTypeName name="practice.MemberInfoPrinter"/>
+    <fullyQualifiedTypeName name="practice.VersionPrinter"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="practice.MemberRegisterService"/>
+    <fullyQualifiedTypeName name="practice.MemberDao"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="practice.ChangePasswordService"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="Optional.Bbb"/>
+</qualifiedTypeNameHistroy>
