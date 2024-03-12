@@ -79,4 +79,17 @@
 			<item value="[name]"/>
 		</list>
 	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="_sp0312"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="_sp0312"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
 </section>
