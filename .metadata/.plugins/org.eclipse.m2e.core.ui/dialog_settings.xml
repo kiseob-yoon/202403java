@@ -81,11 +81,17 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="mvc_test"/>
+			<item value="_sp0314"/>
+			<item value="_sp0313SpringMVC"/>
 			<item value="_sp0312"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="mvc_test"/>
+			<item value="_sp0314"/>
+			<item value="_sp0313SpringMVC"/>
 			<item value="_sp0312"/>
 		</list>
 		<list key="version">

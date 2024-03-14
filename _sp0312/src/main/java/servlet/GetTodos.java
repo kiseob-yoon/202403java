@@ -38,6 +38,8 @@ public class GetTodos extends HttpServlet {
 		response.setCharacterEncoding("UTF-8");
 		
 		PrintWriter out = response.getWriter();
+//		out.print(todos); //list를 받은 것으로 js 형태 안됨
+//		out.println("[\"First task\", \"Second task\"]"); //불편
 		out.print(new Gson().toJson(todos));
 		out.flush();
 	}

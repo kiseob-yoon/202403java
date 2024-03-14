@@ -3,19 +3,26 @@ package config;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.ComponentScan.Filter;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.FilterType;
 
 import spring.ChangePasswordService;
 import spring.MemberDao;
 import spring.MemberInfoPrinter;
 import spring.MemberListPrinter;
 import spring.MemberPrinter;
-import spring.MemberRegisterService;
 import spring.MemberSummaryPrinter;
 import spring.VersionPrinter;
+import spring2.MemberRegisterService;
 
 @Configuration
-@ComponentScan(basePackages = {"spring"}) //패키지가 다르면 괄호안에 요소를 적어주어야함
+@ComponentScan(basePackages = {"spring","spring2"}, //패키지가 다르면 괄호안에 요소를 적어주어야함
+excludeFilters = @Filter(type = FilterType.ANNOTATION,
+classes= {NoProduct.class,ManualBean.class})) 
+
+//@ComponentScan(basePackages = {"spring"}, 
+//excludeFilters = @Filter(type=FilterType.REGEX,pattern = "spring\\..*Service"))
 public class AppCtx {
 
 //	@Bean
