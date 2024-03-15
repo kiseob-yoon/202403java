@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="result">
+<form action="login" method="post">
 아이디<input type="text" name="id">
 비밀번호<input type="text" name="email">
 <input type="submit">
