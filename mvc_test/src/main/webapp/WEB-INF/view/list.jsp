@@ -77,7 +77,7 @@ td a {
 			<tr>
 				<td>${item.getNum()}</td>
 				<td>
-				<a href="view?num=${item.getNum()}">
+				<a href="view?id=${item.getNum()}">
     			${item.getTitle()}
 				</a>
 				</td>

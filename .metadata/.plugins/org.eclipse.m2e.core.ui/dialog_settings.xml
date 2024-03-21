@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\_dev\java3\Jiwoong-Jung 202403Spring5 master _sp0308chap04"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -43,11 +44,15 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="_sp0319chap8"/>
+			<item value="_sp0318"/>
 			<item value="_sp0311"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="_sp0319chap8"/>
+			<item value="_sp0318"/>
 			<item value="_sp0311"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -68,6 +73,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\_dev\java3\sp0321"/>
+			<item value="D:\_dev\java3\sp0320"/>
 			<item value="D:\_dev\java3\Jiwoong-Jung 202403Spring5 master _sp0308chap04"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -81,6 +88,7 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="todoList_servlet"/>
 			<item value="mvc_test"/>
 			<item value="_sp0314"/>
 			<item value="_sp0313SpringMVC"/>
@@ -89,6 +97,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="todoList_servlet"/>
 			<item value="mvc_test"/>
 			<item value="_sp0314"/>
 			<item value="_sp0313SpringMVC"/>

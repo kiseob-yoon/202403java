@@ -163,7 +163,7 @@
       
       
       
-      <Context docBase="mvc_test" path="/mvc_test" reloadable="true" source="org.eclipse.jst.jee.server:mvc_test"/></Host>
+      <Context docBase="mvc_test" path="/mvc_test" reloadable="true" source="org.eclipse.jst.jee.server:mvc_test"/><Context docBase="todoList_servlet" path="/todoList_servlet" reloadable="true" source="org.eclipse.jst.jee.server:todoList_servlet"/></Host>
     </Engine>
   </Service>
 </Server>

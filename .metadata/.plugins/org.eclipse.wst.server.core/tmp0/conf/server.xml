@@ -163,7 +163,7 @@
       
       
       
-      <Context docBase="D:\_dev\java3\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\_dev\java3\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\mvc_test" path="/mvc_test" reloadable="true" source="org.eclipse.jst.jee.server:mvc_test"/></Host>
+      <Context docBase="D:\_dev\java3\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\_dev\java3\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\mvc_test" path="/mvc_test" reloadable="true" source="org.eclipse.jst.jee.server:mvc_test"/><Context docBase="D:\_dev\java3\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\todoList_servlet" path="/todoList_servlet" reloadable="true" source="org.eclipse.jst.jee.server:todoList_servlet"/></Host>
     </Engine>
   </Service>
 </Server>
